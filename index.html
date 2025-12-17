@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kilangi | Timeless Jewellery</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Jost:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@1,300&family=Comic+Relief:wght@400;700&family=Poller+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styling is in style.css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="announcement-bar">
+      <p>Step into Sparkle – Pure Gold & Silver Await</p>
+    </div>
+
+    <header class="site-header">
+      <div class="header-top">
+        <div class="logo">
+          <img
+            src="assests/flower.png"
+            alt="Kilangi Symbol"
+            class="logo-flower"
+          />
+          <!-- <img src="" alt=""> here want to use that logo  -->
+
+          <div>KIL<span>&#923;</span>NGI</div>
+        </div>
+        <div class="header-icons">
+          <button aria-label="Favourites">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="#2F5E55"
+              stroke-width="0.1"
+            >
+              <path
+                d="M16.5 3C19.5376 3 22 5.5 22 9C22 16 14.5 20 12 21.5C9.5 20 2 16 2 9C2 5.5 4.5 3 7.5 3C9.35997 3 11 4 12 5C13 4 14.64 3 16.5 3ZM12.9339 18.6038C13.8155 18.0485 14.61 17.4955 15.3549 16.9029C18.3337 14.533 20 11.9435 20 9C20 6.64076 18.463 5 16.5 5C15.4241 5 14.2593 5.56911 13.4142 6.41421L12 7.82843L10.5858 6.41421C9.74068 5.56911 8.5759 5 7.5 5C5.55906 5 4 6.6565 4 9C4 11.9435 5.66627 14.533 8.64514 16.9029C9.39 17.4955 10.1845 18.0485 11.0661 18.6038C11.3646 18.7919 11.6611 18.9729 12 19.1752C12.3389 18.9729 12.6354 18.7919 12.9339 18.6038Z"
+              ></path>
+            </svg>
+          </button>
+          <button aria-label="Cart">
+            <!-- <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5"
+                        viewBox="0 0 24 24">
+                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
+                        <line x1="3" y1="6" x2="21" y2="6" />
+                        <path d="M16 10a4 4 0 0 1-8 0" />
+                    </svg> -->
+            <svg
+              width="30"
+              height="30"
+              viewBox="0 0 120 120"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <!-- Bag body -->
+              <rect
+                x="25"
+                y="40"
+                width="70"
+                height="55"
+                rx="14"
+                stroke="#2F5E55"
+                stroke-width="8"
+              />
+
+              <!-- Handle -->
+              <path
+                d="M40 40 C40 20, 80 20, 80 40"
+                stroke="#2F5E55"
+                stroke-width="8"
+                fill="none"
+                stroke-linecap="round"
+              />
+
+              <!-- Left dot -->
+              <circle cx="50" cy="55" r="3.5" fill="#2F5E55" />
+
+              <!-- Right dot -->
+              <circle cx="70" cy="55" r="3.5" fill="#2F5E55" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="search-container">
+        <form>
+          <input
+            type="text"
+            placeholder="Search for Earrings.."
+            class="search-input"
+          />
+          <span class="search-icon"
+            ><svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <!-- Main circle -->
+              <circle
+                cx="11"
+                cy="11"
+                r="7"
+                stroke="#383838"
+                stroke-width="1.5"
+              />
+
+              <!-- Small dot -->
+              <circle
+                cx="17.5"
+                cy="19.5"
+                r="1.8"
+                fill="#383838"
+                stroke-width="1.5"
+              />
+            </svg>
+          </span>
+        </form>
+
+        <!-- <span class="search-icon">🔍</span> -->
+      </div>
+
+      <nav class="category-nav">
+        <button class="cat-pill active">
+          <img src="assests/bestsellers.png" alt="bestsellers" />
+          <p>Bestsellers</p>
+        </button>
+
+        <button class="cat-pill">
+          <img src="assests/earrings.png" alt="earrings" />
+          <p>Earrings</p>
+        </button>
+
+        <button class="cat-pill">
+          <img src="assests/rings.png" alt="rings" />
+          <p>Rings</p>
+        </button>
+        <button class="cat-pill">
+          <img src="assests/earring.png" alt="rings" />
+          <p>Rings</p>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="hero-content">
+          <h1>
+            Because You Deserve to Feel <br />
+            <em>Timeless.</em>
+          </h1>
+          <p>
+            Each piece is thoughtfully designed to celebrate your individuality
+            — blending modern elegance with lasting craftsmanship.
+          </p>
+
+          <a href="#" class="cta-btn">
+            Explore the Elegance
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+        </div>
+      </section>
+
+      <section class="features-row">
+        <!-- First Line -->
+        <div class="marquee-line">
+          <div class="marquee-track">
+            <div class="marquee-content">
+              <span>Timeless Design</span>
+              <svg
+                class="star-icon"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2L9.09 8.26L2 9.27L7 14.14L5.82 21.02L12 17.77L18.18 21.02L17 14.14L22 9.27L14.91 8.26L12 2Z"
+                />
+              </svg>
+
+              <span>Lightweight Comfort</span>
+              <svg
+                class="star-icon"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2L9.09 8.26L2 9.27L7 14.14L5.82 21.02L12 17.77L18.18 21.02L17 14.14L22 9.27L14.91 8.26L12 2Z"
+                />
+              </svg>
+
+              <span>Timeless Design</span>
+              <svg
+                class="star-icon"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2L9.09 8.26L2 9.27L7 14.14L5.82 21.02L12 17.77L18.18 21.02L17 14.14L22 9.27L14.91 8.26L12 2Z"
+                />
+              </svg>
+
+              <span>Lightweight Comfort</span>
+              <svg
+                class="star-icon"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2L9.09 8.26L2 9.27L7 14.14L5.82 21.02L12 17.77L18.18 21.02L17 14.14L22 9.27L14.91 8.26L12 2Z"
+                />
+              </svg>
+            </div>
+
+            <!-- Duplicate for seamless loop -->
+            <div class="marquee-content">
+              <span>Timeless Design</span>
+              <svg
+                class="star-icon"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2L9.09 8.26L2 9.27L7 14.14L5.82 21.02L12 17.77L18.18 21.02L17 14.14L22 9.27L14.91 8.26L12 2Z"
+                />
+              </svg>
+
+              <span>Lightweight Comfort</span>
+              <svg
+                class="star-icon"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2L9.09 8.26L2 9.27L7 14.14L5.82 21.02L12 17.77L18.18 21.02L17 14.14L22 9.27L14.91 8.26L12 2Z"
+                />
+              </svg>
+
+              <span>Timeless Design</span>
+              <svg
+                class="star-icon"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2L9.09 8.26L2 9.27L7 14.14L5.82 21.02L12 17.77L18.18 21.02L17 14.14L22 9.27L14.91 8.26L12 2Z"
+                />
+              </svg>
+
+              <span>Lightweight Comfort</span>
+              <svg
+                class="star-icon"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2L9.09 8.26L2 9.27L7 14.14L5.82 21.02L12 17.77L18.18 21.02L17 14.14L22 9.27L14.91 8.26L12 2Z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second Line -->
+        <div class="marquee-line">
+          <div class="marquee-track">
+            <div class="marquee-content">
+              <span>Anti - Fade Polish</span>
+              <svg
+                class="star-icon"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2L9.09 8.26L2 9.27L7 14.14L5.82 21.02L12 17.77L18.18 21.02L17 14.14L22 9.27L14.91 8.26L12 2Z"
+                />
+              </svg>
+
+              <span>Modern Minimal</span>
+              <svg
+                class="star-icon"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2L9.09 8.26L2 9.27L7 14.14L5.82 21.02L12 17.77L18.18 21.02L17 14.14L22 9.27L14.91 8.26L12 2Z"
+                />
+              </svg>
+
+              <span>Anti - Fade Polish</span>
+              <svg
+                class="star-icon"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2L9.09 8.26L2 9.27L7 14.14L5.82 21.02L12 17.77L18.18 21.02L17 14.14L22 9.27L14.91 8.26L12 2Z"
+                />
+              </svg>
+
+              <span>Modern Minimal</span>
+              <svg
+                class="star-icon"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2L9.09 8.26L2 9.27L7 14.14L5.82 21.02L12 17.77L18.18 21.02L17 14.14L22 9.27L14.91 8.26L12 2Z"
+                />
+              </svg>
+            </div>
+
+            <!-- Duplicate for seamless loop -->
+            <div class="marquee-content">
+              <span>Anti - Fade Polish</span>
+              <svg
+                class="star-icon"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2L9.09 8.26L2 9.27L7 14.14L5.82 21.02L12 17.77L18.18 21.02L17 14.14L22 9.27L14.91 8.26L12 2Z"
+                />
+              </svg>
+
+              <span>Modern Minimal</span>
+              <svg
+                class="star-icon"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2L9.09 8.26L2 9.27L7 14.14L5.82 21.02L12 17.77L18.18 21.02L17 14.14L22 9.27L14.91 8.26L12 2Z"
+                />
+              </svg>
+
+              <span>Anti - Fade Polish</span>
+              <svg
+                class="star-icon"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2L9.09 8.26L2 9.27L7 14.14L5.82 21.02L12 17.77L18.18 21.02L17 14.14L22 9.27L14.91 8.26L12 2Z"
+                />
+              </svg>
+
+              <span>Modern Minimal</span>
+              <svg
+                class="star-icon"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2L9.09 8.26L2 9.27L7 14.14L5.82 21.02L12 17.77L18.18 21.02L17 14.14L22 9.27L14.91 8.26L12 2Z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="product-grid">
+        <div class="product-grid-wrapper">
+          <div class="bestseller-header">
+            <h2>Explore Our <em>Timeless</em><br /><em>Bestseller</em></h2>
+
+            <div class="category-filters">
+              <button class="filter-btn active">Rings</button>
+              <button class="filter-btn">Earrings</button>
+              <button class="filter-btn">Pendants</button>
+              <button class="filter-btn">Bracelets</button>
+            </div>
+          </div>
+
+          <div class="products-container">
+            <div class="product-card">
+              <div class="product-image-wrapper">
+                <img
+                  src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=600&h=600&fit=crop"
+                  alt="Twisted Petal Gold Bracelet"
+                />
+              </div>
+              <div class="product-info">
+                <div class="product-divider"></div>
+                <h3 class="product-name">Twisted Petal Gold Bracelet</h3>
+                <div class="product-price">
+                  <span class="current-price">₹79904</span>
+                  <span class="original-price">₹99904</span>
+                </div>
+                <div class="color-options">
+                  <div class="color-swatch gold active"></div>
+                  <div class="color-swatch silver"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image-wrapper">
+                <img
+                  src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=600&h=600&fit=crop"
+                  alt="Twisted Petal Gold Ring"
+                />
+              </div>
+              <div class="product-info">
+                <div class="product-divider"></div>
+                <h3 class="product-name">Twisted Petal Gold Ring</h3>
+                <div class="product-price">
+                  <span class="current-price">₹79904</span>
+                  <span class="original-price">₹99904</span>
+                </div>
+                <div class="color-options">
+                  <div class="color-swatch gold active"></div>
+                  <div class="color-swatch silver"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image-wrapper">
+                <img
+                  src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=600&h=600&fit=crop"
+                  alt="Diamond Elegant Earrings"
+                />
+              </div>
+              <div class="product-info">
+                <div class="product-divider"></div>
+                <h3 class="product-name">Diamond Elegant Earrings</h3>
+                <div class="product-price">
+                  <span class="current-price">₹65904</span>
+                  <span class="original-price">₹85904</span>
+                </div>
+                <div class="color-options">
+                  <div class="color-swatch gold active"></div>
+                  <div class="color-swatch silver"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image-wrapper">
+                <img
+                  src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600&h=600&fit=crop"
+                  alt="Classic Gold Pendant"
+                />
+              </div>
+              <div class="product-info">
+                <div class="product-divider"></div>
+                <h3 class="product-name">Classic Gold Pendant</h3>
+                <div class="product-price">
+                  <span class="current-price">₹54904</span>
+                  <span class="original-price">₹74904</span>
+                </div>
+                <div class="color-options">
+                  <div class="color-swatch gold active"></div>
+                  <div class="color-swatch silver"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="scroll-indicator">
+            <div class="scroll-dot active"></div>
+            <div class="scroll-dot"></div>
+            <div class="scroll-dot"></div>
+            <div class="scroll-dot"></div>
+          </div>
+
+          <div class="shop-cta">
+            <button class="shop-btn">
+              Shop Bestsellers
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="collection-circles"></section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-brand">
+          <div class="logo">
+            <img
+              src="assests/footerflower.png"
+              alt="Kilangi Symbol"
+              class="logo-flower"
+            />
+            <!-- <img src="" alt=""> here want to use that logo  -->
+
+            <div>KIL<span>&#923;</span>NGI</div>
+          </div>
+
+          <p class="brand-desc">
+            Kilangi Jewellery is a premium brand specializing in exquisite
+            silver and gold jewellery.
+          </p>
+          <p class="brand-desc">
+            Known for its timeless elegance and fine craftsmanship, Kilangi
+            offers a curated collection of traditional and contemporary designs
+            perfect for every occasion.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <div class="link-column">
+            <h3>OUR COLLECTION</h3>
+            <ul>
+              <li><a href="#">Rings</a></li>
+              <li><a href="#">Earrings</a></li>
+              <li><a href="#">Pendants</a></li>
+              <li><a href="#">Bracelets</a></li>
+              <li><a href="#">Necklaces</a></li>
+              <li><a href="#">Bangles</a></li>
+              <li><a href="#">Accessories</a></li>
+            </ul>
+          </div>
+
+          <div class="link-column">
+            <h3>QUICK LINKS</h3>
+            <ul>
+              <li><a href="#">All Jewellery</a></li>
+              <li><a href="#">Gold</a></li>
+              <li><a href="#">Silver</a></li>
+              <li><a href="#">Gifting</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="link-column">
+            <h3>POLICIES</h3>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Refund Policy</a></li>
+              <li><a href="#">Shipping Policy</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms & Condition</a></li>
+              <li><a href="#">FAQ's Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright-bar">
+        <p>&copy; <span id="year">2025</span> / Kilangi</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
