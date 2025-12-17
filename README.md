@@ -1,7 +1,7 @@
 ## Frontend Assignment
 
 ### Live Link
-[https://your-site-name.netlify.app](https://kalangi.netlify.app/)
+[Live Link](https://kalangi.netlify.app/)
 
 ### Tech Used
 - HTML
